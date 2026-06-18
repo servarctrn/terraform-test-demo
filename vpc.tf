@@ -6,7 +6,7 @@ resource "aws_vpc" "default" {
 
   tags = {
     Name        = "Terraform-demo-vpc"
-    builder     = "Dennis Ogunfiditimi"
+    builder     = "Tileka Davis-Brown"
     application = "security"
     environment = "test"
   }
